@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered,
+.spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.custom-cursor {
+  cursor: pointer;
+}
+
+.text-orange {
+  color: orangered;
+}
+
+.bg-orange {
+  background-color: orangered;
+}
+
+.selected {
+  color: chocolate;
+}
+
+.content {
+  border: none;
+}
+
+.player-image{
+  width:55px;
+}
